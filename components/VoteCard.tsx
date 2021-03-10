@@ -40,6 +40,7 @@ function VoteCard({ title, votes, totalVotes, imagePath, onVote }: Props) {
         width='full'
         borderTopLeftRadius='md'
         borderTopRightRadius='md'
+        colorScheme='gray'
       />
     </VStack>
   );
